@@ -10,7 +10,6 @@ window.onload = muz
 function muz(){
     // calculations
     let currentDate = new Date()
-    console.log(currentDate)
     let progressDone = Math.ceil((currentDate-startDate)/(1000*60*60*24)) 
     let progressPercentage = progressDone / totalDays;
 
